@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Noto+Sans&family=Poppins:wght@500&display=swap');
+*
+{
+    margin: 0px;;
+}
+body{
+    background: #16A085;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100vh;
+      display: flex; 
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;  
+}
+#timertext
+{
+  
+    justify-content: center;   
+}
+#timertext p
+{
+    /* font-weight: 400px; */
+    font-size: 64px;
+    color:whitesmoke;
+    text-shadow: 1px 1px 10px gray;
+}
+
+#butonheader button
+{
+    font-size: 20px;
+    color:whitesmoke;
+    border: 1px solid whitesmoke;
+    background:transparent;
+    border-radius: 16px;
+    padding: 5px 10px;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    gap:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+#butonheader button:hover
+{
+    background-color: #16A085;
+    
+}
